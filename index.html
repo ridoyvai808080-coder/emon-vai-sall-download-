@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Emon Vai Marketplace</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="welcome"><div class="welcome-card"><div class="logo">EV</div>
+<h1>Emon Vai-এর ওয়েবসাইটে আপনাকে স্বাগতম</h1><p>নিরাপদ ডিজিটাল মার্কেটপ্লেস</p>
+<button onclick="enterSite()">প্রবেশ করুন</button></div></div>
+<header><b>EMON VAI</b><nav><a href="#home">হোম</a><a href="#market">মার্কেট</a><a href="#sell">বিক্রি</a><a href="#login">লগইন</a></nav></header>
+<main>
+<section id="home" class="hero"><div><span>WELCOME TO EMON VAI</span><h2>আপনার ডিজিটাল পণ্য ও সার্ভিসের মার্কেটপ্লেস</h2><p>বৈধ ডিজিটাল পণ্য ও সার্ভিস সহজে খুঁজুন, কিনুন এবং বিক্রি করুন।</p><a class="btn" href="#market">মার্কেট দেখুন</a></div><div class="hero-icon">✨</div></section>
+<section id="market" class="section"><h2>জনপ্রিয় লিস্টিং</h2><div class="grid">
+<div class="card"><div class="ico">🎨</div><h3>গ্রাফিক ডিজাইন</h3><p>Logo ও social media design service</p><strong>৳৫০০</strong></div>
+<div class="card"><div class="ico">🌐</div><h3>Website Template</h3><p>Ready-made website template</p><strong>৳৮০০</strong></div>
+<div class="card"><div class="ico">🎮</div><h3>Gaming Service</h3><p>বৈধ gaming service ও guide</p><strong>৳৩০০</strong></div>
+</div></section>
+<section id="sell" class="section"><h2>পণ্য/সার্ভিস বিক্রি করুন</h2>
+<form onsubmit="submitListing(event)"><input required placeholder="পণ্যের নাম"><input required type="number" min="0" placeholder="দাম (৳)"><textarea required placeholder="বিবরণ"></textarea><button class="btn">লিস্টিং জমা দিন</button></form><p id="msg"></p></section>
+<section id="login" class="section login"><h2>🔐 নিরাপদ লগইন</h2><p>Gmail অথবা Phone authentication provider দিয়ে লগইন করা যাবে। এই সাইট নিজে OTP বা password সংগ্রহ করবে না।</p><button class="btn" onclick="loginDemo()">লগইন</button><p id="loginMsg"></p></section>
+</main><footer>© 2026 Emon Vai</footer><script src="app.js"></script>
+</body></html>
